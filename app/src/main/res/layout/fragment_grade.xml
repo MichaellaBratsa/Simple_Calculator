@@ -1,0 +1,87 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/HW1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Homework 1:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/HW2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Homework 2:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/HW3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Homework 3:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/HW4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Homework 4:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/teamProject"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Team Project:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/midTerm"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Midterm Exam:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/finalExam"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Final Exam:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/classParticipation"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:hint="Class Participation:"
+        android:inputType="numberDecimal"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Final Semester Grade at CS498: "
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@android:color/black"/>
+
+</LinearLayout>
